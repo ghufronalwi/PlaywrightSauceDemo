@@ -57,6 +57,6 @@ npx playwright show-report
 ```
 
 ### Test Result Screenshot
-![]([xxx](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-cli.png?raw=true))
-![]([xxx](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-html-1.png?raw=true))
-![]([xxx](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-html-2.png?raw=true))
+![](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-cli.png?raw=true)
+![](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-html-1.png?raw=true)
+![](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-html-2.png?raw=true)
