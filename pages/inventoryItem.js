@@ -8,11 +8,7 @@ exports.PageInventoryItem = class PageInventoryItem {
     this.page = page;
     this.buttonAddToCart = page.locator('[data-test="add-to-cart"]');
   }
-  
-  // async goto(itemId) {
-  //   await this.page.goto(`/inventory-item.html?id=${itemId}`);
-  // }
-  
+
   async addItemToCart() {
     await this.buttonAddToCart.click();
   }

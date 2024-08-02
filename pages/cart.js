@@ -9,7 +9,6 @@ exports.PageCart = class PageCart {
     this.page = page;
     this.listCartItem = page.locator('[data-test="inventory-item"]');
     this.checkoutButton = page.locator('[data-test="checkout"]');
-    // this.removeButton = page.locator('.cart_button');
   }
   
   async removeRandomItemFromCart() {

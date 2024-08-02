@@ -14,7 +14,7 @@ const selectItems = async (page, numberOfItems) => {
   await pageLogin.goto();
   await pageLogin.login(data.user.username, data.user.password);
   
-  // Click item and add to cart then go back based on number of items to be selected
+  // click item and add to cart then go back based on number of items to be selected
   for (let i = 0; i < numberOfItems; i++) {
     await pageInventory.clickItem(data.items[i].title);
     await pageInventoryItem.addItemToCart();

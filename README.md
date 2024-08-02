@@ -26,12 +26,12 @@ After installation, run this command to start running the test:
 npx playwright test
 ```
 Please note that the test will run in 2 browsers (chrome and firefox). To run only for specific browser, use this command:
-```dtd
+```
 npx playwright test --project=chromium
 ```
 ### Running specific test
 To run specific test file, run this command:
-```dtd
+```
 npx playwright test testLogin.spec.js
 ```
 
@@ -39,13 +39,13 @@ npx playwright test testLogin.spec.js
 By default, the test will run in headless mode to save time during test run. To view the test run in slow motion follow this step:
 1. Open `playwright.config.js`.
 2. Go to line 28, you will find `launchOptions`. Remove comment for line 28 until 30 so it should look like this:
-```dtd
+```
     launchOptions: {
       slowMo: 1000 // define your time in miliseconds
     },
 ```
 3. To run in headed mode, run this command:
-```dtd
+```
 npx playwright test --project=chromium --headed
 ```
 

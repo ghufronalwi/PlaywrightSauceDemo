@@ -51,7 +51,7 @@ test('Test Full Flow', async ({ page }) => {
   // click the "Finish" button
   await pageCheckout.finishCheckout();
   
-  // Here is my assertion
+  // assert
   await expect(pageCheckout.textOrderComplete, "> Expect checkout page to have order complete message")
     .toHaveText('Thank you for your order!');
   await expect(pageCheckout.buttonBackHome, "> Expect back to home button to be visible")
