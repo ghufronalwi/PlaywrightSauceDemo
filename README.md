@@ -57,5 +57,6 @@ npx playwright show-report
 ```
 
 ### Test Result Screenshot
-![](https://github.com/ghufronalwi/FlipCypress/blob/master/screenshot-cypress-result-cli-report.png?raw=true)
-![](https://github.com/ghufronalwi/FlipCypress/blob/master/screenshot-cypress-result-html-report.png?raw=true)
+![]([xxx](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-cli.png?raw=true))
+![]([xxx](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-html-1.png?raw=true))
+![]([xxx](https://github.com/ghufronalwi/PlaywrightSauceDemo/blob/master/screenshot-playwright-html-2.png?raw=true))
